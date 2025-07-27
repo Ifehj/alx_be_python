@@ -19,7 +19,7 @@ try:
 except ValueError:
     raise ValueError("Invalid temperature. Please enter a numeric value.")
 
-unit = unit.strip().upper()
+unit = unit.upper()
 
 if unit == "F":
     result = convert_to_celsius(temperature)
